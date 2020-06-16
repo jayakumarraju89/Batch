@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6374" started-at="2020-06-13T14:39:24Z" finished-at="2020-06-13T14:39:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6374" started-at="2020-06-13T14:39:24Z" finished-at="2020-06-13T14:39:30Z">
+      <class name="testtestng.Parallalbrowsing">
+        <test-method status="FAIL" signature="test3()[pri:0, instance:testtestng.Parallalbrowsing@271053e1]" name="test3" duration-ms="6348" started-at="2020-06-13T14:39:24Z" finished-at="2020-06-13T14:39:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at testtestng.Parallalbrowsing.test3(Parallalbrowsing.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:testtestng.Parallalbrowsing@271053e1]" name="test1" duration-ms="6315" started-at="2020-06-13T14:39:24Z" finished-at="2020-06-13T14:39:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:testtestng.Parallalbrowsing@271053e1]" name="test2" duration-ms="5805" started-at="2020-06-13T14:39:24Z" finished-at="2020-06-13T14:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- testtestng.Parallalbrowsing -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
